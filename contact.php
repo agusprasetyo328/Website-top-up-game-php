@@ -1,6 +1,4 @@
 <?php
-require ("includes/common.php");
-session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,10 +8,10 @@ session_start();
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>infinityshop</title>
+  <title>prasetyoshop</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">          
 </head>
 <body style="overflow-x:hidden; padding-bottom:100px;">
   <?php
@@ -22,31 +20,22 @@ href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
   <div>
     <div class="container mt-5 ">
       <div class="row justify-content-around">
-        <div class="col-md-5 mt-3">
-          <h3 class="text-warning pt-3 title">Hubungi kami kapan saja</h3>
-          <hr />
-          <p class="mt-2">Beberapa layanan mungkin belum optimal, dikarenakan perbaikann website, untuk peningkatan performa, Mohon Maaf atas ketidaknyamanannya</p>
-        </div>
-        <div class="col-md-5 mt-3">
-          <span class="text-warning pt-3">
-            <h1 class="title">LIVE SUPPORT</h1>
-            <h3>DUKUNGAN LANGSUNG</h3>
-          </span>
-          <hr>
-          <p>Harga sudah termasuk PPN. Informasi tambahan, untuk transaksi menggunakan Telkomsel akan dikenakan biaya tambahan pajak.</p>
-
-        </div>
+        <div style="text-align: center;">
+  <h3 class="text-warning pt-3 title">Hubungi kami kapan saja</h3>
+  <hr />
+  <p class="mt-2">Beberapa layanan mungkin belum optimal, dikarenakan perbaikann website, untuk peningkatan performa, Mohon Maaf atas ketidaknyamanannya</p>
+</div>
       </div>
     </div>
   </div>
   <div class="container pb-3">
   </div>
-  <div class="container mt-3 d-flex justify-content-center card pb-3 col-md-6">
-    <form class="col-md-12" action="https://formspree.io/agusprasetyo381328@gmail.com" method="POST" name="_next">
+  <div style="text-align: center;" class="container mt-3 d-flex justify-content-center card pb-3 col-md-6">
+    <form class="col-md-12" action="https://formspree.io/f/myyqjynk" method="POST" name="_next">
       <h3 class="text-warning pt-3 title mx-auto">Contact Form</h3>
       <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email"
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""
         name="email">
       </div>
       <div class="form-group">
